@@ -2,9 +2,9 @@ from setuptools import setup, find_packages
 
 setup(
     name='chapman2',
-    version='0.0.0',
-    # version_format='{tag}.dev{commitcount}',
-    # setup_requires=['setuptools-git-version'],
+    # version='0.0.0',
+    version_format='{tag}.dev{commitcount}',
+    setup_requires=['setuptools-git-version'],
     description='Chapman2 Task Queue',
     long_description='Some restructured text maybe',
     classifiers=[
